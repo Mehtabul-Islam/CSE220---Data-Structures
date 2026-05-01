@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB2_Assignment_Task_3 {
-    // Your main logic, preserved exactly as you wrote it.
     public static Node alternateMerge(Node head1, Node head2) {
         Node temp1 = head1;
         Node temp2 = head2;

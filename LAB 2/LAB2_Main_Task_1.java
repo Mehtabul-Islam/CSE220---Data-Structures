@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB2_Main_Task_1 {
-    // Complete this method to evaluate the conga line
     public static boolean assembleCongaLine(Node head) {
         // An empty line or a line with 1 person is technically perfectly sorted
         if (head == null || head.next == null) {

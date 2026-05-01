@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB2_Assignment_Task_2 {
-    // Your main logic, preserved. Changed Integer[] to int[] to match the prompt's signature.
     public static Node organizeBooks(Node head, int[] popularity) {
         Node temp1 = head;
         int count = 0;

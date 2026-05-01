@@ -1,6 +1,4 @@
 public class LAB1_Assignment_Task_2 {
-    //Complete this method so that it gives the Expected Output
-    //YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static Integer[][] compressMatrix( Integer[][] matrix ){
         int row = matrix.length/2;
         int col = matrix[0].length/2;
@@ -15,7 +13,7 @@ public class LAB1_Assignment_Task_2 {
         }
         return answerA;
     }
-    //DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
+    
     public static void main(String[] args){
         Integer[][] matrix = {
             { 1 , 2 , 3 , 4 },

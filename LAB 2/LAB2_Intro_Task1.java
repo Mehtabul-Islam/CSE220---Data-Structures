@@ -65,7 +65,7 @@ public class LAB2_Intro_Task1 {
         System.out.println("Code: n3.next.elem = 321;");
         System.out.println("-> ERROR: Runtime NullPointerException. 'x' is the Java node, its next is n3. Setting x.next.next = null makes n3.next = null. Accessing .elem on a null reference crashes the program.");
         System.out.println("-> FIX: Instantiate a new Node before assigning an element to it.");
-        n3.next = new Node(null); // Applying the fix
+        n3.next = new Node(null); 
         n3.next.elem = 321;
         System.out.println("-> Fixed Code Executed: n3.next = new Node(null); n3.next.elem = 321;\n");
 
@@ -73,7 +73,7 @@ public class LAB2_Intro_Task1 {
         System.out.println("Code: n4.next = 532;");
         System.out.println("-> ERROR: Compile-time Type Mismatch error. Cannot directly convert an 'int' to a 'Node'.");
         System.out.println("-> FIX: Create a new Node instance containing 532.");
-        n4.next = new Node(532); // Applying the fix
+        n4.next = new Node(532); 
         System.out.println("Code: System.out.println(n4.next.elem);");
         System.out.println("-> Fixed Output: " + n4.next.elem + "\n");
     }

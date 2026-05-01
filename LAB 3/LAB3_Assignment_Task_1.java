@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB3_Assignment_Task_1 {
-    // Your main logic, preserved exactly as you wrote it.
     public static void sumOddAppend(Node dh) {
         Node temp = dh;
         int sum = 0; 

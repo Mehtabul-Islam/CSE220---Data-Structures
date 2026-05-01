@@ -1,6 +1,4 @@
 public class LAB1_Assignment_Task_3 {
-    //Complete this method so that it gives the Expected Output
-    //YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static void playGame( Integer[][] arena ){
         int rownum = arena.length;
         int colnum = arena[0].length;
@@ -50,7 +48,6 @@ public class LAB1_Assignment_Task_3 {
             System.out.println("Points Gained: " + sum + ". Your team is out.");
         }
     }
-    //DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args){
         Integer[][] arena = {
             {0,2,2,0},

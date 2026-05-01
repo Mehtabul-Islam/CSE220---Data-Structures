@@ -1,6 +1,4 @@
 public class LAB1_Assignment_Task_4{
-    //Complete this method so that it gives the Expected Output
-    //YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static void rotateSecret(char[][] board) {
         if (board == null || board.length == 0 || board.length % 2 != 0) {
             return; 
@@ -47,7 +45,6 @@ public class LAB1_Assignment_Task_4{
         System.out.println();
     }
 
-    //DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args){
         char[][] board = {
             {'T', 'A', 'U', 'S'},

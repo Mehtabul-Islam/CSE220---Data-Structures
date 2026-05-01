@@ -15,7 +15,6 @@ public class LAB4_Part1_Assignment_Task_1 {
         return (key + 3) % 6;
     }
 
-    // Your main logic, adapted to take the hashTable array as a parameter
     public static void remove(PairNode[] hashTable, Integer key) {
         int index = hashFunction(key);
 

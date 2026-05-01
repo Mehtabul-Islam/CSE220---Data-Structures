@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB2_Assignment_Task_1 {
-    // Your main logic, preserved and fixed the boolean assignment bug
     public static String checkSimilar( Node building1, Node building2 ){
         Node temp1 = building1;
         Node temp2 = building2;
@@ -41,7 +40,6 @@ public class LAB2_Assignment_Task_1 {
                 temp2 = temp2.next;
             }
             
-            // FIX: Changed from (test = false) to (test == false) or (!test)
             if(test == false){
                 return "Not Similar";
             }
@@ -51,7 +49,6 @@ public class LAB2_Assignment_Task_1 {
         }
     }
 
-    // DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args) {
         System.out.println("=== Testing Building Blocks Task ===");
 

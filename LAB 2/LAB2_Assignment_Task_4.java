@@ -8,7 +8,6 @@ class Node {
     }
 }
 public class LAB2_Assignment_Task_4 {
-    // Your main logic, preserved exactly as you wrote it.
     public static Node idGenerator(Node head1, Node head2, Node head3) {
         
         Node temp = head1;

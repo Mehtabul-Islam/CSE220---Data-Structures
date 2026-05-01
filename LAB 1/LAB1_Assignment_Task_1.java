@@ -1,10 +1,9 @@
 public class LAB1_Assignment_Task_1 {
-    //Complete this method so that it gives the Expected Output
-    //YOU ONLY HAVE TO SUBMIT THIS METHOD, NO OTHER DRIVER CODE
     public static Integer rowRotation( Integer examWeek, String[][] matrix ){
 
         int row = matrix.length;
         int col = matrix[0].length;
+
         for(int i = 0; i < examWeek-1; i++){
             String [] array = matrix[row - 1];
             for(int j = row - 1; j > 0; j--){
@@ -12,6 +11,7 @@ public class LAB1_Assignment_Task_1 {
             }
             matrix[0] = array;
         }
+
         for(int i = 0; i < row; i++){
             System.out.print("| ");
             for(int j = 0; j < col; j++){
@@ -23,6 +23,7 @@ public class LAB1_Assignment_Task_1 {
             }
             System.out.println();
         }
+        
         int number = -1;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -35,7 +36,6 @@ public class LAB1_Assignment_Task_1 {
         return number;
     }
 
-    //DO NOT CHANGE ANY DRIVER CODE BELOW THIS LINE
     public static void main(String[] args){
         String[][] seatStatus = {
                 {"A" , "B"  , "C"  , "D"  , "E"},
